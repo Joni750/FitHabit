@@ -1,0 +1,15 @@
+a{text-decoration: none; color: white ;}
+.bgbody{background-color: #252525; font-family: 'Heebo', sans-serif;}
+.carta{width: 90%;height: auto; background-color: rgba(217, 217, 217, 0.2); border-radius: 15px;}
+.bgbutton{color: white;background-color: #67A045; border-radius: 10px; width: 50%; border: none; margin-top: 5%; height: auto; padding: 2%;}
+.bgbutton:hover{
+background-color:#2a5511 ;
+cursor: pointer;
+}
+.p-33{padding-left: 1rem !important;}
+.rounded-circle {height: 150px;}
+div.text-light{display: flex; justify-content: space-between;}
+a:hover{
+    text-decoration: none;
+color: white;
+}

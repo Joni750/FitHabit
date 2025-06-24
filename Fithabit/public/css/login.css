@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    background-color: #1A1A1A;
+}
+.inputLogin{
+    border-radius: 6px;
+    height: 30px;
+    border: none;
+    width: 94%;
+}
+.btnLogin{
+    background: #67A045;
+    border-radius: 5px;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    border: none;
+    width: 130px;
+height: 35px;
+cursor: pointer;
+}
+#cajaLogin{
+    display: flex;
+    width: 197%;
+    justify-content: center;
+}
+.btnLogin:hover{
+    background: #2a5511;
+}
+.btnLogin:active{
+    background: #2a5511;
+}
+.olvContraseña{
+    text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+a:hover{
+    text-decoration: none;
+    color: #2a5511;
+}
+#cajaBtnInicio{
+    display: flex;
+    width: 93%;
+    justify-content: center;
+}
+.cajaText_labelInicio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+  margin-bottom: 17px;
+}
+#fondoLogin {
+    background-image: url('../images/unai/fndLogin.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+#ftLogoInicio{
+    width: 85%;
+    margin-top: 35%;
+}
+.formInicio{
+    position:relative;
+    display: flex;
+    margin-left: 10%;
+    font-family: 'Heebo', sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lnkRegistro{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 5%;
+
+}
+#registroLogo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.verdeIncioSesion{
+    color: #67A045;
+    text-decoration:none;
+}
+
+nav{
+    display: none;
+}
+.inputLogin.is-invalid {
+    border-color: #dc3545; /* Color rojo para indicar error */
+}
+
+.invalid-feedback {
+    display: block;
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 80%;
+}

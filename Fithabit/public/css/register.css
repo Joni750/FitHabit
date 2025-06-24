@@ -1,0 +1,161 @@
+nav{
+    display: none;
+}
+body{
+    margin:0;
+    background-color: #1A1A1A;
+}
+#fondoRegistro {
+    background-image: url('../images/unai/fndRegistro.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#registroLogo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.verdeIncioSesion{
+    color: #67A045;
+    text-decoration:none;
+}
+#ftLogoRegistro{
+    width: 85%;
+}
+.formRegistro{
+    position: relative;
+    display: flex;
+    font-family: 'Heebo', sans-serif;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+a:hover{
+    text-decoration: none;
+    color: #2a5511;
+}
+.cajaText_label{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 60px;
+    color: white;
+
+  margin-bottom: 17px;
+}
+.input{
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    border: none;
+
+}
+.lnkRegistro{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 5%;
+}
+.btnRegistro{
+    background: #67A045;
+    border-radius: 5px;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    border: none;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+}
+#cajaBtnRegistro{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    margin-top: 5%;
+}
+.btnRegistro:hover{
+    background: #2a5511;
+}
+.btnRegistro:active{
+    background: #2a5511;
+}
+.lnkPlanesPago{
+    text-decoration: none;
+    display: flex;
+    color: white;
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 3%;
+    justify-content: center;
+
+}
+.radio-input input {
+    display: none;
+  }
+
+  .radio-input {
+    /* --container_width: 325px;*/
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    border: none;
+    background-color: #fff;
+    color: #000000;
+     width: var(--container_width);
+    overflow: hidden;
+  }
+
+  .radio-input label {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    font-weight: 600;
+    letter-spacing: -1px;
+    font-size: 14px;
+  }
+
+  .selection {
+    display: none;
+    position: absolute;
+    height: 100%;
+    /* width: calc(var(100%) / 3); */
+    z-index: 0;
+    left: 0;
+    top: 0;
+    transition: .15s ease;
+  }
+
+  .radio-input label:has(input:checked) {
+    color: #fff;
+    background-color: #67A045;
+  }
+
+
+.txtSexo{
+    font-family: 'Heebo', sans-serif;
+    margin-top: 5%;
+}
+.input.is-invalid {
+    border-color: red; /* Color rojo para indicar error */
+}
+
+.invalid-feedbackk {
+    display: block;
+    color: #dc3545;
+    margin-top: -10px;
+    font-size: 80%;
+    width: 80%;
+}

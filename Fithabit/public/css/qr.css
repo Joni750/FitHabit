@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+body{
+
+    background-color: #252525;
+
+    color: white;
+
+}
+
+.titulo{
+
+    font-family: 'Heebo', sans-serif;
+
+    font-size: 26px;
+
+    text-align: center;
+
+}
+
+.flex-container{
+
+    /*flexbox cajas*/
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    gap: 100px;
+
+}
+
+.caja{
+
+    font-family: 'fredoka', sans-serif;
+font-size: 1.1em;
+    text-align: center;
+
+    width: 80%;
+
+}

@@ -1,0 +1,54 @@
+.content-wrapper, .preloader {
+    background-color: white;
+}
+
+nav{
+    background-color: #343434 !important;
+    color: rgb(255, 255, 255);
+}
+
+.nav-header, aside p, i{
+    color: #ffffff !important;
+}
+
+.nav-header{
+    font-size: medium !important;
+}
+
+aside{
+    background-color: #343434 !important;
+}
+
+span{
+    color: #ffffff;
+}
+
+.brand-text.font-weight-light {
+    display: none;
+}
+.user-header{
+    background-color: #343434 !important;
+}
+
+.brand-link .brand-image{
+    max-height: 50px !important;
+}
+
+.nav{
+    margin-top: 15px;
+}
+
+div.inner{
+    background-color: #67A045 !important;
+    color: #ffffff !important;
+}
+
+a.small-box-footer{
+    background-color: #538536 !important;
+    color: #ffffff !important;
+}
+
+.graficos{
+    display: flex;
+    justify-content: space-around;
+}

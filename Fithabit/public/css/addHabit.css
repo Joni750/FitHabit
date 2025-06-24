@@ -1,0 +1,81 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+body{
+    background-color: #1A1A1A;}
+
+.hr{
+    height:3px;
+    border:none;
+    background-color:#ffffff;
+    border-radius: 5px;
+    width: 100%;
+}
+.click{
+   font-size: larger;
+   font-weight: bolder;
+    /* cursor: pointer; */
+}
+footer{
+    top: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+/* PERSONALIZADOS ----------------------------------*/
+.info-prod p{font-size: 1.2em;}
+.precio{display: flex;align-self: center;justify-self: center;font-size: 1.3em;margin-bottom: 10%;}
+.info-prod a{font-size: medium; text-decoration: none;}
+.bg-customBody{background-color: #404040; border-top-right-radius:35px;border-top-left-radius:35px; max-height: 600px;overflow: scroll;}
+.bg-custom{background-color: #67A045;}
+.border-custom{border-color: #67A045;}
+.inputPrecios{
+    text-align: end;
+    color: white;
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    width: 80%;
+}
+#euro{font-size: 1.5em;}
+
+
+
+/* HABITO ---------------------------------------------*/
+.bgHabitoBody{background-color: rgb(53, 53, 53); border-top-right-radius:35px;border-top-left-radius:35px; max-height: 80%;overflow: scroll;
+
+    position: fixed;
+    bottom: 0;
+    width: 105%;
+    height: auto;
+    margin-left: -15px;
+}
+.bgHabito{background-color: rgba(217, 217, 217, 0.2);margin-left: 15%;margin-right: 15%;}
+.plus{
+     font-size: 3em;
+     background: none;
+     border: none;
+     cursor: pointer;
+}
+.habitParrafo{
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    /* display: none; */
+    /* //-webkit-appearance: none; */
+    width: 15px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.custom-inpt { /* style class to adjust the Date Input control default padding value*/
+    padding: 10px !important;
+}
+
+#habitList{bottom:auto;}

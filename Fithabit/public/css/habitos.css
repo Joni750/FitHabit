@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+body{
+
+    background-color: #242424;
+
+    color: white;
+
+}
+
+.titulo{
+
+    font-family: 'Heebo', sans-serif;
+
+    font-size: 26px;
+
+    margin-left: 10px;
+
+}
+
+#plus{
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 0;
+
+    margin: 10px;
+
+}
+
+#flex-container{
+
+    margin-top: 40px;
+
+    /*flexbox cajas*/
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+}
+
+.cajas{
+
+    text-align: center;
+
+    font-family: 'Heebo', sans-serif;
+
+    font-size: 14px;
+
+    width: 14.2%;
+
+}
+
+.cajas:hover{
+
+    border-radius: 85%;
+
+    transition: background-color 0.25s;
+
+    background-color: #373737;
+
+}
+
+.dias{opacity: 0.8;}
+
+#flex-container2{
+
+    margin-top: 40px;
+
+    /*flexbox cajas*/
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex-wrap: wrap;
+
+    align-items: center;
+
+}
+
+.cajas2{
+    font-family: 'League Spartan', sans-serif;
+    background-color: #494949;
+    text-align: center;
+    font-size: 16px;
+    width: 85%;
+    height: 90px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-bottom: 35px;
+    /* padding-right: 20px; */
+    padding-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*Habito 1*/
+
+#colorAzulClaro{
+
+    color: #01D7F2;
+
+    font-size: 20px;
+
+    letter-spacing: 2px;
+
+}
+
+/*Habito 2*/
+
+#colorAmarillo{
+
+    color: #FFE177;
+
+    font-size: 20px;
+
+    letter-spacing: 2px;
+
+}
+
+/*Habito 3*/
+
+#colorCarne{
+
+    color: #FFCDBE;
+
+    font-size: 20px;
+
+}
+
+/*Habito 4*/
+
+#colorRojo{
+
+    color: #E38499;
+
+    font-size: 20px;
+
+}
+
+/*Habito 5*/
+
+#colorAzul{
+
+    color: #00659D;
+
+    font-size: 20px;
+
+    letter-spacing: 2px;
+
+}
+.cajaCantHabi{
+    display: flex;
+}
+.mas{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 2em;
+    font-family: 'fredoka';
+}
+#sum{
+    margin-top: 1%;
+}
+.mas:hover{
+    border: none;
+    background: transparent;
+    text-decoration: none;
+}

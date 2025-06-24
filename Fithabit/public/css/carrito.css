@@ -1,0 +1,69 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+}
+body{
+    background-color: #1A1A1A;
+    font-family: 'Heebo', sans-serif;}
+
+
+.hr{
+    height:3px;
+    border:none;
+    background-color:#ffffff;
+    border-radius: 5px;
+    width: 100%;
+}
+.click{
+   font-size: larger;
+   font-weight: bolder;
+    /* cursor: pointer; */
+}
+footer{
+    top: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+/* PERSONALIZADOS ----------------------------------*/
+.info-prod p{font-size: 1.2em;}
+.precio{display: flex;align-self: center;justify-self: center;font-size: 1.3em;margin-bottom: 10%;}
+.info-prod a{font-size: medium; text-decoration: none;}
+.bg-customBody{background-color: #404040; border-top-right-radius:35px;border-top-left-radius:35px; max-height: 600px;overflow: scroll;}
+.bg-custom{background-color: #67A045;    border: none;
+    border-radius: 5px;}
+    .bg-custom:hover{
+        background-color: #2a5511;
+        cursor: pointer;
+    }
+.border-custom{border-color: #67A045; display: none;}
+.inputPrecios{
+    text-align: end;
+    color: white;
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    width: 80%;
+}
+#euro{font-size: 1.5em;}
+
+
+
+/* HABITO ---------------------------------------------*/
+.bgHabitoBody{background-color: rgba(217, 217, 217, 0.2); border-top-right-radius:35px;border-top-left-radius:35px; max-height: 80%;overflow: scroll;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin-left: -15px;
+}
+.bgHabito{background-color: rgba(217, 217, 217, 0.2);margin-left: 15%;margin-right: 15%;}
+.plus{
+    width: 10%;
+    font-size: 3.5em;
+    margin-top: -10%;
+}
+.habitParrafo{
+    font-size: 1.3em;
+    text-align: center;
+}

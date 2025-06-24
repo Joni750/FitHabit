@@ -1,0 +1,222 @@
+
+body{
+    margin:0;
+    background-color: #1A1A1A;
+}
+.fndInicio{
+    background-image: url('../images/unai/fnditoInicio.jpg');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 260px;
+}
+nav{
+    position: relative;
+    z-index: 9999;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#headerIndex{
+    background-image: url('../images/unai/ftIndex.png');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 260px;
+
+}
+#tituloIndex{
+    text-align: center;
+    color:white;
+    margin-top: 15%;
+    font-family: 'Heebo', sans-serif;
+}
+#indexLogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+}
+#textoIndex{
+    color: white;
+    font-size: 1.3em;
+    text-align: justify;
+    padding: 40px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.flex-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.contact{
+    margin-top: 30px;
+}
+
+#pIndex{
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carousel-slide {
+    display: none;
+}
+
+.carousel-slide img {
+    max-width: 400px;
+    min-width: 297px;
+}
+.btn-line{
+    background-color: white;
+}
+.arrow {
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
+.left-arrow {
+    left: 0;
+}
+
+.right-arrow {
+    right: 0;
+}
+
+.dots-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.tituloInicio{
+    text-align: center;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+}
+.containerContacto {
+    height: 294px;
+    width: 240px;
+    color: white;
+    perspective: 800px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .card {
+    width: 185%;
+    height: 125%;
+    background: black;
+    border-radius: 2rem;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+  }
+
+  .card-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    position: absolute;
+    width: 50%;
+    background-color: transparent;
+    border: 2px solid black;
+    top: 0;
+    border-top: none;
+    border-radius: 0 0 1rem 1rem;
+    box-shadow: 0px 0px 1px 1px #67A045;
+    padding-top: 11px;
+  }
+
+  .card-top-para {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .containerContacto:hover > .card {
+    cursor: pointer;
+    transform: rotateX(180deg) rotateZ(-180deg);
+  }
+
+  .front,
+  .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 1px 1px #67A045;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .back {
+    background-color: black;
+    transform: rotateX(180deg) rotateZ(-180deg);
+  }
+
+  .heading {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .follow {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+  }
+.cajaContacto{
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    padding: 40px;
+}
+.imgH{
+    width: 35%;
+    margin-top: 5%;
+}

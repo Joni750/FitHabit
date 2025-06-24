@@ -1,0 +1,75 @@
+/* table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #343434;
+    padding: 8px;
+    text-align: left;
+}
+
+tr {
+    background-color: #67A045;
+}
+
+th{
+    background-color: #343434;
+  color: #fff;
+} */
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button a{
+    color: #fff;
+}
+
+button a:hover{
+    color: #fff;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* Estilo para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Estilo para las celdas de la tabla */
+td, th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Estilo para las filas pares de la tabla */
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* Fondo de color gris claro para filas pares */
+}
+
+/* Estilo para las filas impares de la tabla */
+tr:nth-child(odd) {
+  background-color: #fff; /* Fondo de color blanco para filas impares */
+}
+
+/* Estilo para la cabecera de la tabla */
+th {
+  background-color: #343434; /* Fondo de color #343434 para la cabecera */
+  color: #fff; /* Color de texto blanco para la cabecera */
+}
+
+.papelera{
+    min-width: 10px;
+    max-width: 30px;
+}

@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color:rgb(36, 36, 36) ;
+}
+body{
+    background-color: #252525;
+}
+.top{
+    color: white;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-size: xx-large;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.profile-card{
+    color: white;
+    background-color: rgb(217, 217, 217,50%);
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    border-radius:10px;
+    flex-direction: column;
+}
+.profile-information{
+    font-size: 1.4em;
+    display: flex;
+    place-items: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+
+
+}
+
+.profile-image img{width: 100%;}
+.profile-image{width: 50%;}
+
+/*-------------------- INF CARD ---------------*/
+
+.information{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.information-card{
+    color: white;
+    width: 95%;
+    background-color: rgb(217, 217, 217,50%);
+    border-radius:10px;
+    padding: 2%;
+    overflow: hidden;
+}
+.information-placements{
+    font-size: 1.2em;
+}
+.information-content{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    gap: 20px;
+    font-size: larger;
+    max-width: 100%;
+}
+.information-content img {width:15%}
+
+
+/*---------------------------------------------*/
+.buttons{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Heebo', sans-serif;
+
+}
+.button-inf{
+    font-family: 'Heebo', sans-serif;
+    width: 250px;
+    height: 30px;
+    background-color: #67A045;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 0;
+
+}
+.red{ background-color: #B21010;}
+.green{background-color: #67A045;}
+.ftPerfil{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.cajaAvatar{
+    display: flex;
+}
+.botonesAvatar{
+    display: flex;
+}
+.cajaAvatarContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+/* Estilos para el contenedor del botón personalizado */
+.botonSubirAvatar {
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+/* Estilos para el botón */
+.botonSubirAvatar label {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #67A045;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+/* Oculta el input de archivo */
+.botonSubirAvatar input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1%;
+    opacity: 0;
+    cursor: pointer;
+}
+.btnActAvatar{
+border-radius: 5px;
+background-color: green;
+color: white;
+border: none;
+padding: 8px 12px;
+font-family: 'Fredoka', sans-serif;
+
+
+}
+.dtsPerfil{
+    font-size: 0.7em;
+    margin-top: 5%;
+    font-family: 'Fredoka', sans-serif;
+}
+.titulos{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.reservasBox{
+    display: flex;
+    color: white;
+    background-color: rgb(217, 217, 217,50%);
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    border-radius:10px;
+    flex-direction: column;
+    font-family: 'Fredoka';
+    font-size: 1.1em;
+}
+.reserva{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.txtReservas{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.pedidoBox {
+    margin-bottom: 20px;
+    display: flex;
+    color: white;
+    background-color: rgb(217, 217, 217, 50%);
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    flex-direction: column;
+    font-family: 'Fredoka';
+    font-size: 1.1em;
+}
+
+.pedido {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.txtPedidos {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.txtNo{
+    color: white;
+    text-align: center;
+    font-family: 'fredoka';
+    font-size: 1.1em;
+}
+button:hover{
+        background: #2a5511;
+
+}
+button{
+    cursor: pointer;
+}

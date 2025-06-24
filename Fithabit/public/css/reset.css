@@ -1,0 +1,22 @@
+html{
+    background-color: #353535;
+}
+#btnFit{
+    background-color: green;
+
+}
+nav{
+    display: none;
+}
+
+body{
+    background-color: #353535;
+}
+.mb-0{
+display: flex;
+
+}
+.cajaFt{
+    display: flex;
+    justify-content: center;
+}
