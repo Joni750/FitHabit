@@ -25,5 +25,3 @@
 ## 🚀 Objetivo del proyecto
 
 FitHabit tiene como objetivo ofrecer una experiencia centralizada para quienes buscan mejorar su estilo de vida, integrando herramientas de gestión física y nutricional en una única plataforma digital moderna y funcional.
-
----
